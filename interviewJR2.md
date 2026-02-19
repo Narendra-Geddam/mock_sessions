@@ -1,4 +1,4 @@
-####INTERVIEW QUESTION 1: Intro
+## INTERVIEW QUESTION 1: Intro
 
 ## Direct Interview Answer
 My name is Narendra Geddam, and I am a DevOps Engineer with hands-on experience in designing, implementing, and managing CI/CD pipelines, Kubernetes-based deployments, and AWS cloud infrastructure. My primary focus is on automating software delivery, ensuring high availability, improving deployment reliability, and maintaining production-grade Kubernetes environments using tools such as Jenkins, Docker, Helm, Amazon EKS, Terraform, and Git.
@@ -135,7 +135,7 @@ Explain your introduction in exactly this structured format:
 Role → Tools → Infrastructure → Responsibilities → Production exposure
 
 
-##INTERVIEW QUESTION 2: Your roles and responsibilities
+## INTERVIEW QUESTION 2: Your roles and responsibilities
 
 ## Direct Interview Answer
 
@@ -270,7 +270,7 @@ Cognitive Checkpoint for Narendra:
 Which layers of infrastructure do you fully manage in your current role?
 
 
-##INTERVIEW QUESTION 3: Explain your CI/CD pipeline
+## INTERVIEW QUESTION 3: Explain your CI/CD pipeline
 
 ## Direct Interview Answer
 
@@ -404,7 +404,7 @@ Cognitive Checkpoint for Narendra:
 
 Explain full flow from Git push to deployment in EKS cluster.
 
-##INTERVIEW QUESTION 4: Which Helm repository are you using?
+## INTERVIEW QUESTION 4: Which Helm repository are you using?
 
 ## Direct Interview Answer
 
@@ -550,7 +550,7 @@ Where is your Helm repository hosted? ECR, Nexus, or Artifactory?
 
 
 
-##INTERVIEW QUESTION 5: In what step are you generating Helm repo?
+## INTERVIEW QUESTION 5: In what step are you generating Helm repo?
 
 ## Direct Interview Answer
 
@@ -668,7 +668,7 @@ Sync image version with Helm chart
 
 ---
 
-##INTERVIEW QUESTION 6: How do you process from dev to prod?
+## INTERVIEW QUESTION 6: How do you process from dev to prod?
 
 ## Direct Interview Answer
 
@@ -779,7 +779,7 @@ Why should you promote same artifact instead of rebuilding?
 
 
 
-##INTERVIEW QUESTION 7: Where is Helm build happening?
+## INTERVIEW QUESTION 7: Where is Helm build happening?
 
 ## Direct Interview Answer
 
@@ -835,7 +835,7 @@ Cognitive Checkpoint for Narendra:
 
 Why should Helm packaging happen in CI and not manually?
 
-##INTERVIEW QUESTION 8: What are you using to scan Helm artifacts?
+## INTERVIEW QUESTION 8: What are you using to scan Helm artifacts?
 
 ## Direct Interview Answer
 
@@ -969,7 +969,7 @@ What happens if a vulnerable Helm chart is deployed without scanning?
 
 
 
-##INTERVIEW QUESTION 9: How to upgrade Helm to new version?
+## INTERVIEW QUESTION 9: How to upgrade Helm to new version?
 
 ## Direct Interview Answer
 
@@ -1071,7 +1071,7 @@ Verify compatibility
 
 ---
 
-##INTERVIEW QUESTION 10: How to verify everything is working fine in EKS?
+## INTERVIEW QUESTION 10: How to verify everything is working fine in EKS?
 
 ## Direct Interview Answer
 
@@ -1177,7 +1177,7 @@ What command helps identify failing pods immediately?
 
 
 
-##INTERVIEW QUESTION 11: Explain deployment strategies
+## INTERVIEW QUESTION 11: Explain deployment strategies
 
 ## Direct Interview Answer
 
@@ -1251,7 +1251,7 @@ Cognitive Checkpoint for Narendra:
 
 Why is rolling update safer than recreate strategy?
 
-##INTERVIEW QUESTION 12: What is the strategy you are using?
+## INTERVIEW QUESTION 12: What is the strategy you are using?
 
 ## Direct Interview Answer
 
@@ -1361,7 +1361,7 @@ If you have 10 pods and maxUnavailable=2, how many pods can be unavailable durin
 
 
 
-##INTERVIEW QUESTION 13: How to do rolling updates in EKS?
+## INTERVIEW QUESTION 13: How to do rolling updates in EKS?
 
 ## Direct Interview Answer
 
@@ -1445,7 +1445,7 @@ Never delete and recreate deployment
 
 ---
 
-##INTERVIEW QUESTION 14: What is pod lifecycle?
+## INTERVIEW QUESTION 14: What is pod lifecycle?
 
 ## Direct Interview Answer
 
@@ -1539,7 +1539,7 @@ Which Kubernetes component assigns pod to node?
 
 
 
-##INTERVIEW QUESTION 15: What is difference between Ready and Running?
+## INTERVIEW QUESTION 15: What is difference between Ready and Running?
 
 ## Direct Interview Answer
 
@@ -1613,7 +1613,7 @@ Why is readiness probe critical in production?
 
 
 
-##INTERVIEW QUESTION 16: What are probes and different types?
+## INTERVIEW QUESTION 16: What are probes and different types?
 
 ## Direct Interview Answer
 
@@ -1721,7 +1721,7 @@ Which probe prevents traffic from reaching unhealthy containers?
 
 
 
-##INTERVIEW QUESTION 17: Explain rolling updates step by step
+## INTERVIEW QUESTION 17: Explain rolling updates step by step
 
 ## Direct Interview Answer
 
@@ -1796,7 +1796,7 @@ Use readiness probes.
 
 ---
 
-##INTERVIEW QUESTION 18: During rolling updates new request will go to new or old pods?
+## INTERVIEW QUESTION 18: During rolling updates new request will go to new or old pods?
 
 ## Direct Interview Answer
 
@@ -1871,7 +1871,7 @@ If new pod is Running but not Ready, will it receive traffic?
 
 
 
-##INTERVIEW QUESTION 19: What is sticky session and where do you configure it?
+## INTERVIEW QUESTION 19: What is sticky session and where do you configure it?
 
 ## Direct Interview Answer
 
@@ -1953,7 +1953,7 @@ Cognitive Checkpoint for Narendra:
 Why are stateless applications preferred over sticky session?
 
 
-##INTERVIEW QUESTION 20: There is some issues in new deployment how to rollback?
+## INTERVIEW QUESTION 20: There is some issues in new deployment how to rollback?
 
 ## Direct Interview Answer
 
@@ -2059,7 +2059,7 @@ Which resource stores deployment history: Pod, ReplicaSet, or Service?
 
 
 
-##INTERVIEW QUESTION 21: Do you use manual or automatic rollback?
+## INTERVIEW QUESTION 21: Do you use manual or automatic rollback?
 
 ## Direct Interview Answer
 
@@ -2133,7 +2133,7 @@ Implement automated rollback when possible.
 
 ---
 
-##INTERVIEW QUESTION 22: Difference between Blue-Green and Canary deployment
+## INTERVIEW QUESTION 22: Difference between Blue-Green and Canary deployment
 
 ## Direct Interview Answer
 
@@ -2215,7 +2215,7 @@ Which deployment strategy exposes fewer users initially?
 
 
 
-##INTERVIEW QUESTION 23: How to configure it?
+## INTERVIEW QUESTION 23: How to configure it?
 
 ## Direct Interview Answer
 
@@ -2268,7 +2268,7 @@ Use Helm to manage deployments.
 ---
 
 
-##INTERVIEW QUESTION 24: Advantages and disadvantages of Blue-Green and Canary deployment
+## INTERVIEW QUESTION 24: Advantages and disadvantages of Blue-Green and Canary deployment
 
 ## Direct Interview Answer
 
@@ -2371,7 +2371,7 @@ Which deployment strategy requires double infrastructure?
 
 
 
-##INTERVIEW QUESTION 25: Where do you define Blue-Green in Helm?
+## INTERVIEW QUESTION 25: Where do you define Blue-Green in Helm?
 
 ## Direct Interview Answer
 
@@ -2452,7 +2452,7 @@ Use consistent labels.
 
 ---
 
-##INTERVIEW QUESTION 26: How decides Blue or Green?
+## INTERVIEW QUESTION 26: How decides Blue or Green?
 
 ## Direct Interview Answer
 
@@ -2517,7 +2517,7 @@ Which Kubernetes resource controls traffic routing: Deployment or Service?
 
 
 
-##INTERVIEW QUESTION 27: How to do Canary in Helm?
+## INTERVIEW QUESTION 27: How to do Canary in Helm?
 
 ## Direct Interview Answer
 
@@ -2571,7 +2571,7 @@ Monitor during rollout.
 
 ---
 
-##INTERVIEW QUESTION 28: Application is not running how to debug it?
+## INTERVIEW QUESTION 28: Application is not running how to debug it?
 
 ## Direct Interview Answer
 
@@ -2647,7 +2647,7 @@ Cognitive Checkpoint for Narendra:
 What is first command you run when application fails?
 
 
-##INTERVIEW QUESTION 29: What are the issues when pod is not in running state?
+## INTERVIEW QUESTION 29: What are the issues when pod is not in running state?
 
 ## Direct Interview Answer
 
@@ -2748,7 +2748,7 @@ Which command shows detailed pod failure reason?
 
 
 
-##INTERVIEW QUESTION 30: What is taint and node affinity?
+## INTERVIEW QUESTION 30: What is taint and node affinity?
 
 ## Direct Interview Answer
 
@@ -2828,7 +2828,7 @@ Use affinity for placement
 
 ---
 
-##INTERVIEW QUESTION 31: Major difference between Taint and Affinity
+## INTERVIEW QUESTION 31: Major difference between Taint and Affinity
 
 ## Direct Interview Answer
 
@@ -2889,7 +2889,7 @@ Which one is applied to node: taint or affinity?
 
 
 
-##INTERVIEW QUESTION 32: In what scenario we have to use taint and node affinity?
+## INTERVIEW QUESTION 32: In what scenario we have to use taint and node affinity?
 
 ## Direct Interview Answer
 
@@ -2946,7 +2946,7 @@ Use taints for node isolation
 ---
 
 
-##INTERVIEW QUESTION 33: What is CIDR block?
+## INTERVIEW QUESTION 33: What is CIDR block?
 
 ## Direct Interview Answer
 
@@ -3043,7 +3043,7 @@ Which CIDR provides more IP addresses: /16 or /24?
 
 
 
-##INTERVIEW QUESTION 34: 10.0.0.0/26 how many IP addresses we get?
+## INTERVIEW QUESTION 34: 10.0.0.0/26 how many IP addresses we get?
 
 ## Direct Interview Answer
 
@@ -3106,7 +3106,7 @@ Plan CIDR carefully.
 
 ---
 
-##INTERVIEW QUESTION 35: Divide this network into 4 different subnets what will be the CIDR?
+## INTERVIEW QUESTION 35: Divide this network into 4 different subnets what will be the CIDR?
 
 Network:
 
@@ -3188,7 +3188,7 @@ Why subnetting is required in cloud architecture?
 
 
 
-##INTERVIEW QUESTION 36: What is subnet mask?
+## INTERVIEW QUESTION 36: What is subnet mask?
 
 ## Direct Interview Answer
 
@@ -3249,7 +3249,7 @@ Choose correct subnet mask based on requirement.
 
 ---
 
-##INTERVIEW QUESTION 37: How pod to pod communication happens across cluster?
+## INTERVIEW QUESTION 37: How pod to pod communication happens across cluster?
 
 ## Direct Interview Answer
 
@@ -3355,7 +3355,7 @@ Which component assigns IP address to pod: kubelet or CNI?
 
 
 
-##INTERVIEW QUESTION 38: Which CNI plugin you are using?
+## INTERVIEW QUESTION 38: Which CNI plugin you are using?
 
 ## Direct Interview Answer
 
@@ -3418,7 +3418,7 @@ Use AWS VPC CNI in EKS.
 
 ---
 
-##INTERVIEW QUESTION 39: How to define network policies?
+## INTERVIEW QUESTION 39: How to define network policies?
 
 ## Direct Interview Answer
 
@@ -3486,7 +3486,7 @@ Which Kubernetes resource controls pod network access?
 
 
 
-##INTERVIEW QUESTION 40: How does multi-cluster communication happen?
+## INTERVIEW QUESTION 40: How does multi-cluster communication happen?
 
 ## Direct Interview Answer
 
@@ -3542,7 +3542,7 @@ Use VPC peering or service mesh.
 
 ---
 
-##INTERVIEW QUESTION 41: How will it know it has to go to that cluster?
+## INTERVIEW QUESTION 41: How will it know it has to go to that cluster?
 
 ## Direct Interview Answer
 
@@ -3634,7 +3634,7 @@ Which component resolves service hostname to IP address?
 
 
 
-##INTERVIEW QUESTION 42: Pod to service how communication happens?
+## INTERVIEW QUESTION 42: Pod to service how communication happens?
 
 ## Direct Interview Answer
 
@@ -3716,7 +3716,7 @@ Use service DNS instead of pod IP.
 
 ---
 
-##INTERVIEW QUESTION 43: L3 and L4 and L7 load balancer
+## INTERVIEW QUESTION 43: L3 and L4 and L7 load balancer
 
 ## Direct Interview Answer
 
@@ -3789,7 +3789,7 @@ Cognitive Checkpoint for Narendra:
 
 Which load balancer type supports URL-based routing?
 
-####INTERVIEW QUESTION 44: If we don’t want to do SSL termination at load balancer how to do it?
+#### INTERVIEW QUESTION 44: If we don’t want to do SSL termination at load balancer how to do it?
 
 ## Direct Interview Answer
 
@@ -3897,7 +3897,7 @@ Which load balancer layer supports SSL passthrough: L4 or L7?
 
 
 
-####INTERVIEW QUESTION 45: What configuration we have to do so that Application Load Balancer should not do SSL termination?
+#### INTERVIEW QUESTION 45: What configuration we have to do so that Application Load Balancer should not do SSL termination?
 
 ## Direct Interview Answer
 
